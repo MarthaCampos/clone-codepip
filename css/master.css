@@ -1,0 +1,137 @@
+body {
+  background-color: #006181;
+  background-image: url("pg.png");
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.box {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #007E9E;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.codepip {
+  color: white;
+  font-weight: bold;
+  margin-right: auto;
+  opacity: 1;
+  display: inline-block;
+  padding: 0 1em;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 16px 68px;
+}
+
+.sign {
+  display: inline-block;
+  padding: 0.6em 0.8em;
+  margin: 16px 68px;
+  background-color: #FF5A6A;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  float: right;
+}
+
+.hero {
+  display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 30rem;
+      padding-bottom: 40px;
+      margin-top: 85px;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 20px;
+      background-color: #006181;
+    background-image: url(../img/bg.png), linear-gradient(#006181, #007E9E);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.play {
+  color: #fff;
+  font-size: 2.2em;
+  display: block;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.games {
+  display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.email {
+  width: 14em;
+  border: none;
+  outline: none;
+  padding: 0.6em 0.8em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  border-radius: 3px;
+  color: #444;
+  box-sizing: border-box;
+  -webkit-appearance: textfield;
+  background-color: white;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  -webkit-writing-mode: horizontal-tb;
+
+}
+
+.subscribe {
+  display: inline-block;
+    padding: 0.6em 0.8em;
+    margin: 0 0.4em;
+    background-color: #FF5A6A;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+}
